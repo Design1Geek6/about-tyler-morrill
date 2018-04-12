@@ -7,14 +7,14 @@ import './css/tyler.css'
 export default class extends Component {
   constructor(){
     super()
-    state={
-      projectName: "Project Name",
-      projectDate: "Project Date",
-      projectDescription: "Project Description",
-      projectTech: "Project Technology",
+    const projects={
+      name: "Project Name",
+      date: "Project Date",
+      desc: "Project Description",
+      tech: "Project Technology",
     }
 
-    console.log('App.Constructor()', "state", this.state)
+    console.log('App.Constructor()')
   }
 
   componentWillMount(){
@@ -26,8 +26,7 @@ export default class extends Component {
 
     return (
       <div>
-        <Home/>, <Projects name={this.state.projectName} date={this.state.projectDate}
-        description={this.state.projectDescription} tech={this.state.projectTech}/>, <JobHistory/>
+        <Home/>, <Projects projects={this.projects} />, <JobHistory/>
       </div>
     )
   }

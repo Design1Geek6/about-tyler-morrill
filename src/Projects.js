@@ -8,18 +8,18 @@ export default class extends Component{
     render(){
         return(
             <div>
-                <h1 className="projTitle">Projects I Have Worked On</h1>
-                <div className="projGroup">
-                    <div className="name">{this.props.projectDate}</div>
-                    <div className="date"></div>
-                    <div className="descipt"></div>
-                    <div className="tech"></div>
+
+                <h1 className="title">Projects I Have Worked On</h1>
+                <div className="specs">
+                    <div className="name">{this.props.project}</div>
+                    <div className="date">{this.props.date}</div>
+                    <div className="descipt">{this.props.desc}</div>
+                    <div className="tech">{this.props.proTech}</div>
                 </div>
-                <div>{this.props.proj}</div>
-                <div>{this.props.proj}</div>
+                <div>{this.props.projects}</div>
+                <div>{this.props.projects}</div>
 
             </div>
-
         )
     }
 
