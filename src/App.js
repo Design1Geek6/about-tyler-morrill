@@ -1,11 +1,20 @@
 import React, { Component } from 'react'
 import Home from './Home'
+import Projects from './Projects'
+import JobHistory from './JobHistory'
 import './css/tyler.css'
 
-class App extends Component {
+export default class extends Component {
   constructor(){
     super()
-    console.log('App.Constructor()')
+    state={
+      projectName: "Project Name",
+      projectDate: "Project Date",
+      projectDescription: "Project Description",
+      projectTech: "Project Technology",
+    }
+
+    console.log('App.Constructor()', "state", this.state)
   }
 
   componentWillMount(){
@@ -17,7 +26,8 @@ class App extends Component {
 
     return (
       <div>
-        <Home/>
+        <Home/>, <Projects name={this.state.projectName} date={this.state.projectDate}
+        description={this.state.projectDescription} tech={this.state.projectTech}/>, <JobHistory/>
       </div>
     )
   }
@@ -27,4 +37,3 @@ class App extends Component {
   }
 }
 
-export default App
