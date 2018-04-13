@@ -40,16 +40,16 @@ export default class extends Component {
                 </section>
                 <section className="techSkills">
                     <ul className="techSkillsList">
-                        <li className="list 1"><img src ="/img/css-Icon.svg" alt="CSS Icon"/>CSS</li>
-                        <li className="list 2"><img src ="/img/graphic-design-icon.svg" alt="Graphic Design Icon"/>Graphic Design</li>
-                        <li className="list 3"><img src ="/img/html-icon.svg" alt="HTML Icon"/>HTML</li>
-                        <li className="list 4"><img src ="/img/Iconography-icon.svg" alt="Iconography Icon"/>Iconography</li>
-                        <li className="list 5"><img src ="/img/AI-Icon.svg" alt="Illustrator Icon"/>Illustrator</li>
-                        <li className="list 6"><img src ="/img/ps-Icon.svg" alt="Photoshop Icon"/>Photoshop</li>
-                        <li className="list 7"><img src ="/img/prototype-icon.svg" alt="Prototyping Icon"/>Prototyping</li>
-                        <li className="list 8"><img src ="/img/uxui-Icon.svg" alt=">UX / UI Design Icon"/>UX / UI Design</li>
-                        <li className="list 9"><img src ="/img/web-icon.svg" alt="Web Development Icon"/>Web Development</li>
-                        <li className="list 10"><img src ="/img/Wireframe-icon.svg" alt="Wire Framing Icon"/>Wire Framing</li>
+                        <li className="list 1"><img src="/img/css-Icon.svg" alt="CSS Icon"/>CSS</li>
+                        <li className="list 2"><img src="/img/graphic-design-icon.svg" alt="Graphic Design Icon"/>Graphic Design</li>
+                        <li className="list 3"><img src="/img/html-icon.svg" alt="HTML Icon"/>HTML</li>
+                        <li className="list 4"><img src="/img/Iconography-icon.svg" alt="Iconography Icon"/>Iconography</li>
+                        <li className="list 5"><img src="/img/AI-Icon.svg" alt="Illustrator Icon"/>Illustrator</li>
+                        <li className="list 6"><img src="/img/ps-Icon.svg" alt="Photoshop Icon"/>Photoshop</li>
+                        <li className="list 7"><img src="/img/prototype-icon.svg" alt="Prototyping Icon"/>Prototyping</li>
+                        <li className="list 8"><img src="/img/uxui-Icon.svg" alt=">UX / UI Design Icon"/>UX / UI Design</li>
+                        <li className="list 9"><img src="/img/web-icon.svg" alt="Web Development Icon"/>Web Development</li>
+                        <li className="list 10"><img src="/img/Wireframe-icon.svg" alt="Wire Framing Icon"/>Wire Framing</li>
                     </ul>
                 </section>
                 <footer>

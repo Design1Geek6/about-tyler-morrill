@@ -7,13 +7,7 @@ import './css/tyler.css'
 export default class extends Component {
   constructor(){
     super()
-    const projects={
-      name: "Project Name",
-      date: "Project Date",
-      desc: "Project Description",
-      tech: "Project Technology",
-    }
-
+    
     console.log('App.Constructor()')
   }
 
@@ -26,7 +20,7 @@ export default class extends Component {
 
     return (
       <div>
-        <Home/>, <Projects projects={this.projects} />, <JobHistory/>
+        <Home/> <Projects /> <JobHistory/>
       </div>
     )
   }
