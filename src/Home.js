@@ -16,15 +16,14 @@ export default class extends Component {
 
         return(
             <div className="body">
-                <header className="header">
-                    <div className="bgImage" alt="Lumberjack"></div>
+                <header className="header image" alt="Lumberjack">
                     <div className="nameTag">
                         <h1 className="name">Tyler J. Morrill</h1>
                         <h3 className="tag">UX/UI Web Designer</h3>
                     </div>
                 </header>
                 <section className="About Me">
-                    <h1>ABOUT ME</h1>
+                    <h1 className="aboutStyle">ABOUT ME</h1>
                     <p>As a Graphic / UX Designer, I enjoy creating graphics and
                     layouts that are eﬀective, clean and can strengthen any business
                     strategies. Conceptualizing innovative design solutions and
@@ -40,16 +39,16 @@ export default class extends Component {
                 </section>
                 <section className="techSkills">
                     <ul className="techSkillsList">
-                        <li className="list 1"><img src="/img/css-Icon.svg" alt="CSS Icon"/>CSS</li>
-                        <li className="list 2"><img src="/img/graphic-design-icon.svg" alt="Graphic Design Icon"/>Graphic Design</li>
-                        <li className="list 3"><img src="/img/html-icon.svg" alt="HTML Icon"/>HTML</li>
-                        <li className="list 4"><img src="/img/Iconography-icon.svg" alt="Iconography Icon"/>Iconography</li>
-                        <li className="list 5"><img src="/img/AI-Icon.svg" alt="Illustrator Icon"/>Illustrator</li>
-                        <li className="list 6"><img src="/img/ps-Icon.svg" alt="Photoshop Icon"/>Photoshop</li>
-                        <li className="list 7"><img src="/img/prototype-icon.svg" alt="Prototyping Icon"/>Prototyping</li>
-                        <li className="list 8"><img src="/img/uxui-Icon.svg" alt=">UX / UI Design Icon"/>UX / UI Design</li>
-                        <li className="list 9"><img src="/img/web-icon.svg" alt="Web Development Icon"/>Web Development</li>
-                        <li className="list 10"><img src="/img/Wireframe-icon.svg" alt="Wire Framing Icon"/>Wire Framing</li>
+                        <li className="list 1"><img className="blackBg" src="/img/css-icon.svg" alt="Css Icon"/>CSS</li>
+                        <li className="list 2"><img className="blackBg" src="/img/graphic-design-icon.svg" alt="Graphic Design Icon"/>Graphic Design</li>
+                        <li className="list 3"><img className="blackBg" src="/img/html-icon.svg" alt="HTML Icon"/>HTML</li>
+                        <li className="list 4"><img className="blackBg" src="/img/Iconography-icon.svg" alt="Iconography Icon"/>Iconography</li>
+                        <li className="list 5"><img className="blackBg" src="/img/AI-Icon.svg" alt="Illustrator Icon"/>Illustrator</li>
+                        <li className="list 6"><img className="blackBg" src="/img/ps-Icon.svg" alt="Photoshop Icon"/>Photoshop</li>
+                        <li className="list 7"><img className="blackBg" src="/img/prototype-icon.svg" alt="Prototyping Icon"/>Prototyping</li>
+                        <li className="list 8"><img className="blackBg" src="/img/uxui-Icon.svg" alt=">UX / UI Design Icon"/>UX / UI Design</li>
+                        <li className="list 9"><img className="blackBg" src="/img/web-icon.svg" alt="Web Development Icon"/>Web Development</li>
+                        <li className="list 10"><img className="blackBg" src="/img/Wireframe-icon.svg" alt="Wire Framing Icon"/>Wire Framing</li>
                     </ul>
                 </section>
                 <footer>

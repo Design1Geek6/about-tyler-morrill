@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Jobs from './Job'
+import Job from './Job'
 
 export default class extends Component{
     state={
@@ -22,7 +22,7 @@ export default class extends Component{
                 <h1 className="title">Work Experiance</h1>
                 <Job title={this.state.job1.title} 
                 date={this.state.job1.date} 
-                desc={this.state.job1.desc}  />
+                desc={this.state.job1.desc} />
                 <Job title={this.state.job2.title} 
                 date={this.state.job2.date} 
                 desc={this.state.job2.desc} />
