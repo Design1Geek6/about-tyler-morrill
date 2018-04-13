@@ -37,13 +37,6 @@ export default class extends Component {
         </div>
       </Router>
     )
-
-    // return (
-    //   <div>
-    //     <Home/> <Projects /> <JobHistory/>
-
-    //   </div>
-    // )
   }
 
   componentDidMount(){
