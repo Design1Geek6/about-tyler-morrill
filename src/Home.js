@@ -18,12 +18,14 @@ export default class extends Component {
             <div className="body">
                 <header className="header image" alt="Lumberjack">
                     <div className="nameTag">
-                        <h1 className="name">Tyler J. Morrill</h1>
+                        <h1 className="name">TYLER J. MORRILL</h1>
                         <h3 className="tag">UX/UI Web Designer</h3>
                     </div>
                 </header>
-                <section className="About Me">
+            <main className='main'>
+                <section className="aboutMe">
                     <h1 className="aboutStyle">ABOUT ME</h1>
+                    <div className="alignment">
                     <p>As a Graphic / UX Designer, I enjoy creating graphics and
                     layouts that are eﬀective, clean and can strengthen any business
                     strategies. Conceptualizing innovative design solutions and
@@ -36,21 +38,28 @@ export default class extends Component {
                     growth I have learned and continue to hone my skills in HTML and
                     CSS. As a loyal employee, you can bet I will not seek the next best
                     thing just to get ahead. I will continue to amaze for many years.</p>
-                </section>
-                <section className="techSkills">
+                
                     <ul className="techSkillsList">
+                    <div>
                         <li className="list 1"><img className="blackBg" src="/img/css-icon.svg" alt="Css Icon"/>CSS</li>
                         <li className="list 2"><img className="blackBg" src="/img/graphic-design-icon.svg" alt="Graphic Design Icon"/>Graphic Design</li>
                         <li className="list 3"><img className="blackBg" src="/img/html-icon.svg" alt="HTML Icon"/>HTML</li>
                         <li className="list 4"><img className="blackBg" src="/img/Iconography-icon.svg" alt="Iconography Icon"/>Iconography</li>
+                        </div>
+                        <div>
                         <li className="list 5"><img className="blackBg" src="/img/AI-Icon.svg" alt="Illustrator Icon"/>Illustrator</li>
                         <li className="list 6"><img className="blackBg" src="/img/ps-Icon.svg" alt="Photoshop Icon"/>Photoshop</li>
                         <li className="list 7"><img className="blackBg" src="/img/prototype-icon.svg" alt="Prototyping Icon"/>Prototyping</li>
                         <li className="list 8"><img className="blackBg" src="/img/uxui-Icon.svg" alt=">UX / UI Design Icon"/>UX / UI Design</li>
+                        </div>
+                        <div>
                         <li className="list 9"><img className="blackBg" src="/img/web-icon.svg" alt="Web Development Icon"/>Web Development</li>
                         <li className="list 10"><img className="blackBg" src="/img/Wireframe-icon.svg" alt="Wire Framing Icon"/>Wire Framing</li>
+                        </div>
                     </ul>
+                    </div>
                 </section>
+            </main>
                 <footer>
 
                 </footer>

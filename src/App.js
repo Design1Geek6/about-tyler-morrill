@@ -3,6 +3,8 @@ import Home from './Home'
 import Projects from './Projects'
 import JobHistory from './JobHistory'
 import './css/tyler.css'
+import './css/about.css'
+import './css/me.css'
 import { BrowserRouter as Router, Route, NavLink as Link, Switch } from 'react-router-dom' //in terminal install via "npm install react-router-dom"
 
 
