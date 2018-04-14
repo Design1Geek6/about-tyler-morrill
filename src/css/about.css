@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Yantramanav');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Raleway|Tajawal');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.title{
+    font-family: Oswald;
+    font-size: 100pt;
+    text-align: center;
+    padding: 50px;
+}
+
+.spLogo{
+    padding: 50px;
+    width: 25%;
+    position: center;
+}
+
+.name{
+    text-align: center;
+}

@@ -20,9 +20,12 @@ export default class extends Component{
         return(
             <div>
                 <h1 className="title">Work Experiance</h1>
+                <div className="spGroup">
+                <img className="spLogo" src="/img/signpro.jpg" alt="sign pro logo"/>
                 <Job title={this.state.job1.title} 
                 date={this.state.job1.date} 
                 desc={this.state.job1.desc} />
+                </div>
                 <Job title={this.state.job2.title} 
                 date={this.state.job2.date} 
                 desc={this.state.job2.desc} />
