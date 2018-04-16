@@ -21,13 +21,13 @@ export default class extends Component{
             <div>
                 <h1 className="title">Work History</h1>
                 <div className="spGroup">
-                <img className="spLogo" src="/img/signpro.jpg" alt="sign pro logo"/>
+                <img className="spLogo" src="/img/signpro.png" alt="sign pro logo"/>
                 <Job work={this.state.job1.work} 
                 date={this.state.job1.date} 
                 desc={this.state.job1.desc} />
                 </div>
-                <div className="jjaSummit">
-                <img className="spLogo" src="/img/signpro.jpg" alt="sign pro logo"/>
+                <div className="jjaGroup">
+                <img className="spLogo" src="/img/jjaIcon.svg" alt="jja logo"/>
                 <Job work={this.state.job2.work} 
                 date={this.state.job2.date} 
                 desc={this.state.job2.desc} />

@@ -13,12 +13,21 @@
     padding: 50px;
 }
 
-.spLogo{
-    padding: 50px;
-    width: 25%;
-    position: center;
+.spGroup, .jjaGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.name{
-    text-align: center;
+.spLogo{
+    padding: 50px;
+}
+
+.company{
+    font-size: 50px;
+    font-family: Oswald;
+}
+
+.time,.info{
+    font-size: 24px;
 }

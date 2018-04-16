@@ -5,9 +5,9 @@
     render(){
         return(
                 <div className="job">
-                    <div className="work">{this.props.work}</div>
-                    <div className="date">{this.props.date}</div>
-                    <div className="descipt">{this.props.desc}</div>
+                    <div className="work company">{this.props.work}</div>
+                    <div className="date time">{this.props.date}</div>
+                    <div className="descipt info">{this.props.desc}</div>
                 </div>
         )
     }
