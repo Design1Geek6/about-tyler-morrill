@@ -25,15 +25,15 @@ export default class extends Component {
     return (
       <Router>
         <div className="App">
-          <nav>
-            <Link exact to="/" activeStyle={{ fontWeight: 'bold', color: 'red' }}>Projects</Link>
-            <Link exact to="/JobHistory" activeStyle={{ fontWeight: 'bold', color: 'red' }}>Work History</Link>
-            <Link to="/Home" activeStyle={{ fontWeight: 'bold', color: 'red' }}>Home</Link>
+          <nav className="navigation">
+            <Link  className="link home" to="/Home" activeStyle={{ fontWeight: 'bold', color: 'red', }}>Home</Link>
+            <Link className="link jobHistory"exact to="/JobHistory" activeStyle={{ fontWeight: 'bold', color: 'red'}}>Work History</Link>
+            <Link className="link project"exact to="/" activeStyle={{ fontWeight: 'bold', color: 'red', }}>Projects</Link>
           </nav>
           <Switch>
-            <Route exact path="/" component={Projects} />
-            <Route exact path="/JobHistory" component={JobHistory} />
             <Route path="/Home" component={() => <Home />} />
+            <Route exact path="/JobHistory" component={JobHistory} />
+            <Route exact path="/" component={Projects} />
             <Route component={() => <div>404 ERROR</div>} />
           </Switch>
         </div>

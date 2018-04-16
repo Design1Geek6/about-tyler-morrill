@@ -6,6 +6,20 @@
     margin: 0px;
 }
 
+.navigation{
+    background-color: #000;
+    padding: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Questrial;
+}
+
+.link{
+    padding-right: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
 /*Hero Image*/
 .header{
     background-image: url(/img/lumber.jpg);

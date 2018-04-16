@@ -5,7 +5,7 @@
     render(){
         return(
                 <div className="job">
-                    <div className="name">{this.props.title}</div>
+                    <div className="work">{this.props.work}</div>
                     <div className="date">{this.props.date}</div>
                     <div className="descipt">{this.props.desc}</div>
                 </div>
